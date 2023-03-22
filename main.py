@@ -7,7 +7,7 @@ import json
 
 
 def data_from_mono():
-    print('Take date from Mono started')
+    print('Take date from NBU started')
     url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json'
     response = requests.get(url)
     data = json.loads(response.text)
